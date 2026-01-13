@@ -13,11 +13,14 @@ export default defineConfig({
 					label: 'Home', slug: 'index'
 				},
 				{
-					label: 'Notes',
+					label: 'Update', slug: 'update'
+				},
+				{
+					label: 'Note',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Recent', slug: 'notes/recent' },
-						{ label: 'Topics', slug: 'notes/topics' },
+						{ label: 'Recent', slug: 'note/recent' },
+						{ label: 'Topics', slug: 'note/topics' },
 					],
 				},
 				{
