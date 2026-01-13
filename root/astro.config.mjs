@@ -36,7 +36,9 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'README', slug: 'use' },
 						// GitHub: https://github.com/CorentinTh/it-tools
-						{ label: 'Web Tools', link: 'https://it-tools.tech', attrs: { target: '_blank' } },
+						{ label: 'IT Tools (tools)', link: 'https://it-tools.tech', attrs: { target: '_blank' } },
+						// GitHub: https://github.com/gchq/CyberChef
+						{ label: 'CyberChef (tools)', link: 'https://gchq.github.io/CyberChef/', attrs: { target: '_blank' } },
 					],
 				},
 				// {
